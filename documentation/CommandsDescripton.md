@@ -89,7 +89,7 @@ REMOVEALL <key>
 ```
 Example:
 
-![RemoveAll](./images/RemoveAll.jpg)
+![RemoveAll](./images/RemoveAll.JPG)
 
 ### CLEAR
 Removes all keys and all values from the dictionary.
@@ -100,7 +100,7 @@ CLEAR
 
 Example:
 
-![Clear](./images/Clear.jpg)
+![Clear](./images/Clear.JPG)
 
 ### KEYEXISTS
 Returns whether a key exists or not. 
@@ -110,7 +110,7 @@ KEYEXISTS
 ```
 Example:
 
-![KeyExists](./images/KeyExists.jpg)
+![KeyExists](./images/KeyExists.JPG)
   
 ### VALUEEXISTS
 Returns whether a value exists within a key.
@@ -122,7 +122,7 @@ VALUEEXISTS <key> <value>
 
 Example:
 
-![ValueExists](./images/ValueExists.jpg)
+![ValueExists](./images/ValueExists.JPG)
 
 ### ALLMEMBERS
 Returns all the values in the dictionary.  Returns nothing if there are none. Order is not guaranteed.
@@ -133,7 +133,7 @@ ALLMEMBERS
 
 Example:
 
-![AllMembers](./images/AllMembers.jpg)
+![AllMembers](./images/AllMembers.JPG)
 
 ### ITEMS
 Returns all keys in the dictionary and all of their values.  Returns nothing if there are none.  Order is not guaranteed.
@@ -145,7 +145,7 @@ ITEMS
 
 Example:
 
-![Items](./images/Items.jpg)
+![Items](./images/Items.JPG)
 
 
 ### EXIT
@@ -157,7 +157,7 @@ EXIT
 
 Example:
 
-![Exit](./images/Exit.jpg)
+![Exit](./images/Exit.JPG)
 
 
 
