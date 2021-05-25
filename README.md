@@ -16,13 +16,13 @@ example: HELP KEYS
 ```
 Please verify this word document for detail description of each operation and their usage
 
-#Application Requirements
+# Application Requirements
 
 Java Version : Java 8 and above
 
 Gradle version: 4.8.1 and above
 
-# Building in your local
+# Building application in your local
 Go to project root directory and run below in your command line
 
 ```
@@ -31,9 +31,9 @@ Go to project root directory and run below in your command line
 
 ![GradleCleanBuild](./documentation/images/GradleCleanBuild.JPG)
 
-#Running Dictionary Console Application
+# Running Dictionary Console Application
 
-####Running the delivered executable jar
+#### Running the delivered executable jar
 Add executable jar for convenience. You can run the dictionary.jar available in application folder in project root directory.
 
 Before running the jar make sure java home is set in your environment. Please verify helpful links at the bottom for more information about setting JAVA_HOME.
@@ -44,15 +44,14 @@ java -jar dictionary.jar
 ![DictionaryExecutableJar](./documentation/images/DictionaryExecutableJar.JPG)
 
 
-####Building and running executable jar
+#### Building and running executable jar
 After running .\gradlew clean build you can see the dictionary executable jar in <project root directory>/build/libs/dictionary.jar
 
 ![ExecutingDictionaryJar](./documentation/images/ExecutingDictionaryJar.JPG)
 
 Above commands ran in windows environment for mac/linux you should be able to run similar commands
 
-
-#Helpful Link
+# Helpful Link
 
 [Set JAVA_HOME for windows](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html)
 
