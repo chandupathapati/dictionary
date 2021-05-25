@@ -12,7 +12,7 @@ public enum Operations {
 	ALLMEMBERS("Get all values from all keys. Usage ALLMEMBERS"),
 	ITEMS("Get all keys and their values. Usage ITEMS"),
 	EXIT("exit from console app. Usage EXIT"),
-	HELP("use HELP for avaialble operations or HELP <operation> for specific operation");
+	HELP("use HELP for available operations or HELP <operation> for specific operation");
 	
 	private final String description;
 
