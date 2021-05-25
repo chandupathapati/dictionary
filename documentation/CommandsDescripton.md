@@ -9,21 +9,21 @@ Following commands are supported.
 
 ### HELP
 
-Give information about all available operations that can be performed.
-
-Use HELP for available operations or HELP <operation> for specific operation.
-
-Example:
+Gives Information about all available operations that can be performed.
 
 ```
 HELP
 ```
+Example:
 
 ![Help](./images/Help.png)
 
+Gives Information about specific operation
+
 ```
-HELP KEYS
+HELP <operation>
 ```
+Example:
 
 ![HelpKeys](./images/HelpKeys.png)
 
@@ -81,7 +81,7 @@ Example:
 ![Remove](./images/Remove.jpg)
   
 ### REMOVEALL
-Removes all value for a key and removes the key from the dictionary. 
+Remove all values for a key and remove the key from the dictionary. 
 Returns an error if the key does not exist.
 
 ```
@@ -106,7 +106,7 @@ Example:
 Returns whether a key exists or not. 
   
 ```
-KEYEXISTS
+KEYEXISTS <key>
 ```
 Example:
 

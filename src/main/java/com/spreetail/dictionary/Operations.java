@@ -2,9 +2,9 @@ package com.spreetail.dictionary;
 
 public enum Operations {
 	KEYS("Get all keys in dictionary. Usage KEYS"),
-	MEMBERS("Get all string associated with the give key. Usage MEMBERS <key>"),
-	ADD("Add new key with value. Usage ADD <key> <value> duplicate. Duplicates not allowed"),
-	REMOVE("Remove String associated with Key. Removes key if last string is removed from key. Usage REMOVE <key> <value>"),
+	MEMBERS("Get all values associated with the given key. Usage MEMBERS <key>"),
+	ADD("Add new key with value or Add value to an existing key. Usage ADD <key> <value>. Duplicates not allowed"),
+	REMOVE("Remove value associated with Key. Removes key if last value is removed from key. Usage REMOVE <key> <value>"),
 	REMOVEALL("Remove key and all its values. Usage REMOVEALL <key>"),
 	CLEAR("Remove all keys and all values. Usage CLEAR"),
 	KEYEXISTS("Verify if key exists. Usage KEYEXISTS <key>"),
