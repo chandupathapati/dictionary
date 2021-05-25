@@ -1,6 +1,9 @@
 # Dictionary Console Application
 
-Dictionary Console Application, a console application to store Multi-Value attributes i.e., mapping each key to a collection of values
+The Multi-Value Dictionary app is a console application that stores a multivalue dictionary in memory.
+All keys and values are strings and support following commands as mentioned below.
+keys and their Values stored in this dictionary are case sensitive.
+
 
 # Documentation
 List of available operations that can be performed in the console
@@ -8,13 +11,18 @@ List of available operations that can be performed in the console
 ```
 KEYS, MEMBERS, ADD, REMOVE, REMOVEALL, CLEAR, KEYEXISTS, VALUEEXISTS, ALLMEMBERS, ITEMS, EXIT, HELP
 ```
-To get operation description for individual operation use HELP
+For detailed description of each operation please use below documentation.
+
+[Available Commands](./documentation/CommandsDescripton.md)
+
+To get operation description for individual operation in console use HELP
 
 ```
 HELP <operation>
 example: HELP KEYS
 ```
 Please verify this word document for detail description of each operation and their usage
+
 
 # Application Requirements
 
@@ -34,11 +42,17 @@ Go to project root directory and run below in your command line
 # Running Dictionary Console Application
 
 #### Running the delivered executable jar
-Add executable jar for convenience. You can run the dictionary.jar available in application folder in project root directory.
+Added executable jar for convenience. You can run the dictionary.jar available in application folder in project root directory.
 
 Before running the jar make sure java home is set in your environment. Please verify helpful links at the bottom for more information about setting JAVA_HOME.
 
 ```
+change to application directory from your project root directory 
+
+cd ./application
+
+Run below command:
+
 java -jar dictionary.jar
 ```
 ![DictionaryExecutableJar](./documentation/images/DictionaryExecutableJar.JPG)
@@ -50,6 +64,14 @@ After running .\gradlew clean build you can see the dictionary executable jar in
 ![ExecutingDictionaryJar](./documentation/images/ExecutingDictionaryJar.JPG)
 
 Above commands ran in windows environment for mac/linux you should be able to run similar commands
+
+# Importing Project into IDE's
+
+Used eclipse to develop this project. You should be able to import this project in popular IDE using import existing gradle project wizard.
+
+[How to Import gradle project into eclipse](https://findanyanswer.com/how-do-i-import-a-gradle-project-into-eclipse)
+
+[How to Import gradle project in IntelliJ](https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start)
 
 # Helpful Link
 
